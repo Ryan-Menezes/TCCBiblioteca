@@ -1,0 +1,96 @@
+body{
+	background-image: url("../Imagens/telaFundo.png");
+	background-size: cover;
+}
+#principal{
+	display: flex;
+	align-items: center;
+}
+#principal .containerDados{
+	padding: 40px;
+	width: 800px;
+	border-radius: 3px;
+	background-color: #121211;
+	color: white;
+}
+#principal .containerDados .dados{
+	display: grid;
+	grid-template-columns: 1fr 150px;
+	margin: 0;
+}
+#principal .containerDados .dados div{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 0;
+}
+#principal .containerDados .dados button{
+	padding: 10px;
+	border: none;
+	background-color: #4287f5;
+	color: white;
+	outline: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+#principal .containerDados .dados button:hover{
+	background-color: #103e87;
+}
+#principal .containerDados h3{
+	border-left: 5px solid #4287f5;
+	padding-left: 10px;
+}
+
+#principal .containerDados div{
+	margin-top: 30px;
+}
+#principal .containerDados div ul{
+	margin-left: 20px;
+}
+
+@media(max-width: 920px){
+	#principal .containerDados{
+		width: 600px;
+	}
+}
+@media(max-width: 730px){
+	#principal .containerDados{
+		width: 400px;
+	}
+}
+@media(max-width: 550px){
+	#principal .containerDados h3, #principal .containerDados h4{
+		font-size: 14px;
+	}
+	#principal .containerDados p, #principal .containerDados div ul li{
+		font-size: 12px;
+	}
+}
+@media(max-width: 510px){
+	#principal .containerDados{
+		width: 300px;
+	}
+	#principal .containerDados .dados button{
+		font-size: 12px;
+	}
+	#principal .containerDados .dados{
+		grid-template-columns: 1fr 110px;
+	}
+}
+@media(max-width: 415px){
+	#principal .containerDados{
+		width: 250px;
+	}
+	#principal .containerDados h3, #principal .containerDados h4{
+		font-size: 13px;
+	}
+	#principal .containerDados p, #principal .containerDados div ul li{
+		font-size: 11px;
+	}
+}
+@media(max-width: 350px){
+	#principal .containerDados{
+		padding: 20px;
+	}
+}

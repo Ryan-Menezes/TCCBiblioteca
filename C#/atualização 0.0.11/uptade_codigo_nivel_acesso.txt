@@ -1,0 +1,6 @@
+alter table aluno change sexo sexo enum('M','F','O') not null;
+
+-- não foi possivel usar o change 
+alter table usuario drop nivel_acesso;
+alter table usuario add nivel_acesso enum('ALUNO','PROFESSOR','FUNCIONARIO','ADMIN') not null;
+desc usuario;

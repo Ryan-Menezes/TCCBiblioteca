@@ -1,0 +1,20 @@
+-- Modificações
+desc locacao;
+desc livro;
+alter table locacao add situacao enum('ATRASADO','ENTREGUE','RENOVADO') not null;
+
+desc exemplares;
+desc instituicao;
+desc livro;
+
+alter table exemplares drop livro_tombo_exemplares;
+alter table exemplares add livro_tombo_exemplares int not null;
+alter table exemplares add foreign key(livro_tombo_exemplares) references livro(tombo)
+on delete cascade on update cascade;
+
+desc exemplares;
+desc locacao;
+alter table locacao drop id_exemplares;
+alter table locacao add tombo_exemplares int not null;
+alter table locacao add foreign key(tombo_exemplares) references exemplares(livro_tombo_exemplares)
+on delete cascade on update cascade;

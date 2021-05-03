@@ -1,0 +1,25 @@
+desc instituicao;
+alter table instituicao change id_instituicao cod_instituicao int(3) not null;
+alter table instituicao add municipio_instituicao varchar(50) not null;
+
+insert into instituicao (cod_instituicao,nome_instituicao ,municipio_instituicao)
+values 
+('010','ETEC LAURO GOMES','SÃO BERNADO DO CAMPO'),
+('018','ETEC DE SÃO PAULO','SÃO PAULO');
+
+select concat(0,cod_instituicao ) from instituicao;
+
+select * from instituicao;
+select concat(0, cod_instituicao) from instituicao where cod_instituicao <= 99 ;
+select * from exemplares;
+
+alter table instituicao_usuario change situacao situacao enum ('DETERMINADO','INDETERMINADO');
+alter table instituicao_usuario change id_usuario rm_usuario_instituicao int(5) not null;
+alter table instituicao_usuario change id_instituicao cod_instituicao int(3) not null;
+
+desc instituicao_usuario;
+select * from instituicao_usuario;
+desc instituicao;
+
+alter table instituicao_usuario drop id_instituicao_usuario;
+alter table instituicao_usuario add cod_instituicao_usuario int not null primary key auto_increment ;

@@ -1,0 +1,200 @@
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\Biblioteca01.exe.config
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\Biblioteca01.exe
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\Biblioteca01.pdb
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\MySql.Data.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\Google.Protobuf.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\Zstandard.Net.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\Renci.SshNet.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\System.Buffers.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\System.Memory.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\bin\Debug\MySql.Data.xml
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csprojAssemblyReference.cache
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.exe.config
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.Form1.resources
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.Properties.Resources.resources
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.TelaLogin.resources
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.TelaPrincipal.resources
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csproj.GenerateResource.cache
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csproj.CopyComplete
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.exe
+C:\Users\Hp\Documents\PROJETO TCC\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.pdb
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Biblioteca01.exe.config
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Biblioteca01.exe
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Biblioteca01.pdb
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Google.Protobuf.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Zstandard.Net.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Renci.SshNet.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Buffers.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Memory.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\MySql.Data.xml
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.Form1.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.Properties.Resources.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.TelaPrincipal.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csproj.CopyComplete
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.exe
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.pdb
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Livro.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadLivro.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadGenero.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadAutor.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadEditora.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Funcionario.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadFuncionario.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Aluno.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadAluno.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadProfessor.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Professor.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Login.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.TelaLogin.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\MySql.Data.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Google.Protobuf.pdb
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Google.Protobuf.xml
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Renci.SshNet.xml
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Buffers.xml
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Memory.xml
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\MySqlConnector.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\MySqlConnector.xml
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Alocacao.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadCursos.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Cursos.resources
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\itextsharp.dll
+C:\Users\User\source\repos\Biblioteca\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\itextsharp.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Biblioteca01.exe
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\MySql.Data.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Renci.SshNet.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Biblioteca01.exe.config
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Google.Protobuf.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\itextsharp.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\MySqlConnector.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Buffers.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Memory.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Zstandard.Net.dll
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Google.Protobuf.pdb
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Google.Protobuf.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\itextsharp.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\MySql.Data.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\MySqlConnector.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Renci.SshNet.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Buffers.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Memory.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.Form1.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Alocacao.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Aluno.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadAluno.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadAutor.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadCursos.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadEditora.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadFuncionario.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadGenero.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadLivro.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadProfessor.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Cursos.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Funcionario.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Livro.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Login.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Professor.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.Properties.Resources.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.TelaLogin.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.TelaPrincipal.resources
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csproj.GenerateResource.cache
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csproj.CoreCompileInputs.cache
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csproj.CopyComplete
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.exe
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.pdb
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Biblioteca01.pdb
+C:\Users\Rmnc\Desktop\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csprojAssemblyReference.cache
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Biblioteca01.exe.config
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Biblioteca01.exe
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Biblioteca01.pdb
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Google.Protobuf.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\itextsharp.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\MySql.Data.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\MySqlConnector.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Renci.SshNet.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Buffers.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Memory.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Zstandard.Net.dll
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Google.Protobuf.pdb
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Google.Protobuf.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\itextsharp.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\MySql.Data.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\MySqlConnector.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\Renci.SshNet.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Buffers.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Memory.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csprojAssemblyReference.cache
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.Form1.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Alocacao.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Aluno.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadAluno.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadAutor.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadCursos.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadEditora.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadFuncionario.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadGenero.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadLivro.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_CadProfessor.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Cursos.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Funcionario.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Livro.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Login.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.F_Professor.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.Properties.Resources.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.TelaLogin.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.TelaPrincipal.resources
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csproj.GenerateResource.cache
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csproj.CoreCompileInputs.cache
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.csproj.CopyComplete
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.exe
+C:\Users\Rmnc\Desktop\TCC-Disigner\Biblioteca01\Biblioteca01\Biblioteca01\obj\Debug\Biblioteca01.pdb

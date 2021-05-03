@@ -1,0 +1,485 @@
+body{
+	background-color: #020202;
+}
+#principal{
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	background-image: url("../Imagens/FundoPrincipal.jpg");
+	background-size: cover;
+}
+#principal .info{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: auto 1fr;
+	grid-column-gap: 40px;
+}
+#principal .info img{
+	height: 350px;
+	width: auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px black;
+}
+#principal .info ul{
+	width: 400px;
+}
+#principal .info ul li{
+	color: white;
+	display: block;
+	line-height: 30px;
+	text-shadow: 0px 0px 5px black;
+}
+#principal .info ul li select{
+	width: 200px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	color: white;
+	font-size: 15px;
+}
+#principal .info ul li select option{
+	color: black;
+}
+#principal .info ul li h2{
+	padding-left: 10px;
+	margin-bottom: 100px;
+	border-left: 4px solid #4287f5;
+}
+#principal .info ul li span{
+	border-radius: 1px;
+	padding-bottom: 2px;
+	border-bottom: 3px solid #4287f5;
+}
+#principal .info ul li button{
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	margin-top: 10px;
+	cursor: pointer;
+	color: white;
+	background-color: #4287f5;
+	transition-duration: 0.5s;
+}
+#principal .info ul li button:hover{
+	background-color: #195ac2;
+}
+#avaliacao{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 50px;
+	flex-direction: column;
+}
+#avaliacao button{
+	width: 200px;
+	border: none;
+	padding: 10px;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 20px;
+	background-color: #ab2500;
+	transition-duration: 0.3s;
+}
+#avaliacao button:hover{
+	background-color: #451001;
+}
+.estrelas i{
+	color: gray;
+	font-size: 30px;
+	margin: 0;
+}
+#avaliacao .status{
+	color: white;
+	text-align: center;
+}
+#avaliar{
+	display: flex;
+	justify-content: center;
+}
+#avaliar form{
+	padding: 40px;
+	margin-bottom: 50px;
+	width: 600px;
+	background-color: #0a0a0a;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 3px;
+}
+#avaliar form .estrelas i{
+	cursor: pointer;
+}
+#avaliar form textarea{
+	margin-top: 20px;
+	padding: 15px;
+	resize: none;
+	border-radius: 3px;
+	outline: none;
+	border: none;
+	background-color: #121212;
+	color: white;
+	overflow: hidden;
+}
+#avaliar form span{
+	color: white;
+}
+#avaliar form input[type=submit]{
+	height: 40px;
+	border: none;
+	margin-top: 20px;
+	color: white;
+	border-radius: 3px;
+	background-color: #ab2500;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+#avaliar form input[type=submit]:hover{
+	background-color: #451001;
+}
+#avaliar form input[type=radio]{
+	display: none;
+}
+#avaliar main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#plusList{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: none;
+	position: absolute;
+	top: 100px;
+	right: 50px;
+	cursor: pointer;
+	background-color: #4287f5;
+	transition-duration: 0.3s;
+	color: white;
+}
+#plusList:hover{
+	transform: scale(1.1);
+}
+
+/*Moldal de avaliações*/
+
+.moldal .fechaMoldal{
+	padding: 5px;
+	color: white;
+	font-size: 30px;
+	height: 40px;
+	width: 40px;
+	background-color: #ab2500;
+	cursor: pointer;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	right: 50px;
+	top: 50px;
+	transition-duration: 0.3s;
+}
+
+.moldal .fechaMoldal:hover{
+	transform: scale(1.1);
+}
+
+.moldal{
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.9);
+	height: 100%;
+	width: 100%;
+	z-index: 999999999;
+	align-items: center;
+	flex-direction: column;
+	overflow-y: auto;
+	display: none;
+}
+
+.moldal main{
+	margin-top: 50px;
+}
+
+.moldal main select{
+	padding: 10px;
+	border: none;
+	outline: none;
+	width: 150px;
+	border-radius: 3px;
+	background-color: #1c1c1c;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.moldal h4{
+	color: white;
+	margin-top: 100px;
+}
+#moldalAvaliacoes::-webkit-scrollbar-thumb{
+	background-color: #D43D02FF;
+}
+#moldalAvaliacoes .ava{
+	width: 400px;
+	padding: 20px;
+	background-color: white;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+}
+
+#avaliacoesDiv{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#moldalAvaliacoes .ava a{
+	color: blue;
+	display: none;
+}
+
+#moldalAvaliacoes .ava span{
+	color: blue;
+	margin-top: 10px;
+}
+
+#moldalAvaliacoes .ava textarea{
+	outline: none;
+	resize: none;
+	border: none;
+	margin-top: 20px;
+	font-size: 15px;
+	height: 54px;
+	overflow: hidden;
+}
+#avaliacoesDiv h4{
+	padding: 20px;
+	text-align: center;
+}
+#moldalAvaliacoes .ava div{
+	display: flex;
+	align-items: center;
+}
+#moldalAvaliacoes .ava div img{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+#moldalAvaliacoes .ava div .estrelas i{
+	font-size: 12px;
+}
+#moldalAvaliacoes .ava div .infoAva{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+}
+#moldalAvaliacoes .ava div .infoAva .infoUser{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 15px;
+}
+#moldalAvaliacoes .ava div .infoAva .infoUser div i{
+	font-size: 15px;
+	cursor: pointer;
+}
+#avisoEstrela{
+	width: 100px;
+	padding: 10px;
+	background-color: #ab2500;
+	position: absolute;
+	margin-top: -60px;
+	color: white;
+	font-size: 10px;
+	box-shadow: 0px 0px 5px #451001;
+	border-radius: 3px;
+	display: none;
+}
+#avisoEstrela p{
+	position: relative;
+	z-index: 9999;
+}
+#avisoEstrela div{
+	width: 15px;
+	height: 15px;
+	background-color: #ab2500;
+	position: absolute;
+	transform: rotate(45deg);
+	margin-bottom: -10px;
+	left: 3px;
+}
+.carregarMais{
+	padding: 10px;
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+	color: white;
+	background-color: #4287f5;
+	margin-top: 20px;
+	transition-duration: 0.3s;
+	margin-bottom: 20px;
+}
+.carregarMais:hover{
+	background-color: #093375;
+}
+.loading{
+	background-color: transparent;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 2px solid white;
+	border-left: 2px solid #4287f5;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	animation: loading 1s linear infinite;
+}
+@keyframes loading{
+	to{transform: rotate(360deg);}
+}
+
+/*Responsividade*/
+
+@media(max-width: 900px){
+	#moldalAvaliacoes .ava{
+		width: 400px;
+		padding: 20px;
+	}
+	#plusList{
+		right: 20px;
+		top: 80px;
+	}
+}
+
+@media(max-width: 850px){
+	#principal{
+		padding: 80px;
+		padding-top: 100px;
+	}
+	#principal .info{
+		width: 100%;
+		grid-template-columns: 200px 1fr;
+		grid-column-gap: 20px;
+	}
+	#principal .info img{
+		height: 200px;
+	}
+	#principal .info ul{
+		width: auto;
+		font-size: 12px;
+	}
+	#principal .info ul li h2{
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+	#avaliar form{
+		width: 400px;
+		margin: 20px;
+	}
+	#avaliar form span{
+		font-size: 12px;
+	}
+	#avaliar main{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	#avaliar main div{
+		margin-bottom: 20px;
+	}
+}
+
+@media(max-width: 700px){
+	.moldal .fechaMoldal{
+		height: 30px;
+		width: 30px;
+		top: 20px;
+		right: 20px;
+	}
+}
+
+@media(max-width: 670px){
+	#principal{
+		padding: 50px;
+		padding-top: 100px;
+	}
+	#plusList{
+		right: 10px;
+		top: 70px;
+	}
+}
+
+@media(max-width: 600px){
+	#principal{
+		padding: 100px;
+	}
+	#principal .info{
+		grid-template-columns: 1fr;
+		grid-gap: 50px;
+	}
+	#avaliacao .status, #avaliacao .estrelas i{
+		font-size: 12px;
+	}
+	#avaliacao button{
+		width: 150px;
+	}
+	#avaliar form i{
+		font-size: 20px;
+	}
+	#moldalAvaliacoes .ava{
+		width: 300px;
+		padding: 15px;
+		font-size: 10px;
+	}
+	#moldalAvaliacoes .ava .infoAva .estrelas i{
+		font-size: 10px;
+	}
+	#moldalAvaliacoes .ava textarea{
+		font-size: 10px;
+	}
+	#moldalAvaliacoes .ava div img{
+		height: 30px;
+		width: 30px;
+	}
+	#plusList{
+		right: 50px;
+		top: 100px;
+	}
+}
+
+@media(max-width: 500px){
+	#espaco{
+		margin-top: 100px;
+	}
+	#principal{
+		padding: 50px;
+		padding-top: 100px;
+	}
+	.moldal .fechaMoldal{
+		height: 30px;
+		width: 30px;
+		right: 50%;
+		margin-right: -20px;
+	}
+}
+
+@media(max-width: 400px){
+	#avaliar form{
+		padding: 20px;
+	}
+	#moldalAvaliacoes .ava{
+		width: 250px;
+	}
+	#plusList{
+		right: 20px;
+		top: 100px;
+	}
+	#principal .info ul li select{
+		width: 60%;
+		font-size: 12px;
+	}
+}

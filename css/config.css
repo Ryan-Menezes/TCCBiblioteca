@@ -1,0 +1,872 @@
+		*{
+			padding: 0;
+			margin: 0;
+			font-family: arial;
+			scrollbar-color: #4287f5 #1f1d1d;
+			scrollbar-width: thin;
+		}
+		body{
+			background-color: #080707;
+			overflow-x: hidden;
+		}
+		*::-webkit-scrollbar{
+			height: 10px;
+			width: 10px;
+			background-color: #1f1d1d;
+			border-radius: 10px;
+		}
+		*::-webkit-scrollbar-thumb{
+			background-color: #4287f5;
+			border-radius: 10px;
+		}
+		input, button{
+			outline: none;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+		}
+		#menu, #menuB{
+			width: 100%;
+			height: 60px;
+			background-color: #121211;
+			color: white; 
+			position: fixed;
+			z-index: 9999999;
+			transition-duration: 0.3s;
+			box-shadow: 0px 0px 3px black;
+		}
+		#menu ul{
+			height: 100%;
+			display: grid;
+			grid-template-rows: 1fr;
+			grid-template-columns: 200px 1fr 200px;
+		}
+		#menu ul li{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			
+		}
+		#menu #mn{
+			display: flex;
+			align-items: center;
+			justify-content: left;
+			font-size: 20px;
+		}
+		#menu #mn span{
+			cursor: pointer;
+			margin-left: 20px;
+		}
+		#menu #barraPesquisa input[type=text]{
+			width: 500px;
+			padding: 8px;
+			border: none;
+			border-radius: 2px;
+			background-color: #1c1c1c;
+			color: white;
+		}
+		#menu #barraPesquisa input[type=text]:-webkit-autofill{
+			-webkit-box-shadow: 0 0 0 30px #1c1c1c inset;
+			-webkit-text-fill-color: white;
+		}
+		#menu div{
+			font-size: 13px;
+			width: 15px;
+			height: 15px;
+			padding: 7px;
+			border-radius: 50%;
+			background-color: #4287f5;
+			margin-left: 5px;
+			cursor: pointer;
+			display: inline;
+			text-align: center;
+		}
+		#menu .textPesq{
+			display: none;
+			background-color: gray;
+		}
+		#menu #imgInicial img{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			margin-left: 5px;
+		}
+		#menuB{
+			top: 60px;
+			padding: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#menuB ul{
+			width: auto;
+		}
+		#menuB ul li{
+			display: inline-block;
+			height: 100%;
+			width: 100px;
+			text-align: center;
+			line-height: 50px;
+			border-radius: 5px;
+			padding-bottom: 10px;
+			cursor: pointer;
+			transition-duration: 0.3s;
+		}
+		#menuB ul li:hover{
+			background-color: #1c1c1b;
+		}
+		#menu2{
+			width: 260px;
+			height: 100%;
+			overflow: auto;
+			background-color: black;
+			z-index: 9999999999;
+			position: fixed;
+			left: -260px;
+			transition-duration: 0.3s;
+		}
+		#menu2 div{
+			width: 100%;
+			height: auto;
+			color: white;
+			background-image: url('./Imagens/Fundo.jpg');
+			background-size: cover;
+			margin-bottom: 10px;
+		}
+		#menu2 div span{
+			font-size: 30px;			
+			color: white;
+			float: left;
+			cursor: pointer;
+			text-shadow: 0px 0px 5px black;
+			position: absolute;
+			margin-left: 85%;
+			margin-top: 10px;
+		}
+		#menu2 div img{
+			height: 120px;
+			width: 120px;
+			border-radius: 50%;
+			position: relative;
+			left: 50%;
+			margin-left: -60px;
+			margin-top: 40px;
+		}
+		#menu2 div p{
+			padding: 20px;
+			text-align: center;
+		}
+		#menu2 ul li{
+			height: 50px;
+			line-height: 50px;
+			font-size: 18px;
+			padding-left: 20px;
+			transition-duration: 0.3s;
+		}
+		#menu2 ul li:hover{
+			border-left: 5px solid #4287f5;
+			background-color: #1c1c1c;
+		}
+		#menu2 #MarcadoItem{
+			border-left: 5px solid #4287f5;
+		}
+		#menu2 div{
+			background-image: url('../Imagens/Fundo.jpg');
+		}
+		#sinoNotificacao, #btnhelp{
+			width: 50px;
+			height: 50px;
+			background-color: #4287f5;
+			color: white;
+			border-radius: 50%;
+			position: fixed;
+			bottom: 30px;
+			right: 30px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			z-index: 999999;
+			transition-duration: 0.3s;
+		}
+		#btnhelp{
+			width: 30px;
+			height: 30px;
+			bottom: 90px;
+			right: 40px;
+			background-color: #D43D02FF;
+			font-size: 12px;
+		}
+		#sinoNotificacao:hover, #btnhelp:hover{
+			transform: scale(1.1);
+		}
+		#sinoNotificacao div{
+			position: absolute;
+			background-color: #800800;
+			border-radius: 50%;
+			margin-top: -40px;
+			margin-left: -40px;
+			font-size: 10px;
+			height: 25px;
+			width: 25px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#MoldalVoz, #MoldaMensagens{
+			position: fixed;
+			height: 100%;
+			width: 100%;
+			z-index: 9999999999;
+			background-color: rgba(0, 0, 0, 0.9);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			display: none;
+			overflow: auto;
+		}
+		#MoldalVoz .containerMicro{
+			padding: 40px;
+			background-color: white;
+			width: 150px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			border-radius: 5px;
+		}
+		#MoldalVoz .containerMicro div{
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			background-color: #4287f5;
+			color: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 50px;
+			cursor: pointer;
+			transition-duration: 0.3s;
+			box-shadow: 2px 2px 10px #0048ba;
+			animation: teste 1s infinite linear;
+		}
+		#MoldalVoz .containerMicro div:hover{
+			transform: scale(1.1);
+		}
+
+		@keyframes teste{
+			0%{
+				box-shadow: 0 0 0 0 rgba(0, 72, 186, 1);
+			}
+			100%{
+				box-shadow: 0 0 0 20px rgba(0, 72, 186, 0);;
+			}
+		}
+
+		/*Moldal de Opções*/
+
+		.MoldalMensagens{
+			position: fixed;
+			z-index: 999999999;
+			background-color: rgba(0, 0, 0, 0.9);
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+			display: none;
+			align-items: center;
+			justify-content: center;
+		}
+		.fechaMoldalMsg{
+			position: absolute;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			color: white;
+			background-color: #870707;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 20px;
+			cursor: pointer;
+			top: -25px;
+			right: -25px;
+			transition-duration: 0.3s;
+		}
+		.fechaMoldalMsg:hover{
+			transform: scale(1.1);
+		}
+		.MoldalMensagens .telas{
+			width: 700px;
+			height: 500px;
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: 50px 1fr;
+			background-color: #080707;
+			box-shadow: 0px 0px 5px #1c1919;
+			border-radius: 5px;
+			position: relative;
+		}
+		.MoldalMensagens .telas header div{
+			display: flex;
+			align-items: center;
+			margin-left: 10px;
+		}
+		.MoldalMensagens .telas header{
+			background-color: black;
+			display: flex;
+			align-items: center;
+			color: white;
+			justify-content: space-between;
+			border-top-right-radius: 5px;
+			border-top-left-radius: 5px;
+		}
+		.MoldalMensagens .telas header img{
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			margin-right: 10px;
+		}
+		.MoldalMensagens .telas header h5{
+			margin-left: 10px;
+		}
+		.tabelaMsg{
+			overflow: auto;
+			display: grid;
+			grid-template-rows: 1fr 70px;
+		}
+		.MoldalMensagens .telas table{
+			width: 90%;
+			color: white;
+			margin-top: 30px;
+			text-align: center;
+			border-collapse: collapse;
+			margin-left: 5%;
+			margin-bottom: 20px;
+			font-size: 12px;
+		}
+		.MoldalMensagens .telas table thead th{
+			height: 50px;
+			background-color: #0a0a0a;
+			color: white;
+			width: 8.333%;
+		}
+		.MoldalMensagens .telas tbody td{
+			padding:  5px 10px 5px 10px;
+			text-align: center;
+			color: white;
+			height: 40px;
+			border-top: 1px solid gray;
+		}
+		.MoldalMensagens .telas tbody tr{
+			transition-duration: 0.3s;
+			background-color: #141414; 
+		}
+		.MoldalMensagens .telas tbody tr:hover{
+			background-color: #242323;
+		}
+		.MoldalMensagens .telas tbody td img{
+			height: 100%;
+			border-radius: 2px;
+		}
+		.MoldalMensagens .telas tbody td i{
+			cursor: pointer;
+			font-size: 17px;
+			margin-right: 5px;
+		}
+
+		/*Rodape da moldal*/
+
+		.MoldalMensagens .telas #trMsgLoading{
+			background-color: transparent;
+		}
+		.MoldalMensagens .telas #trMsgLoading .carregarMaisT{
+			border-radius: 50%;
+			background-color: #4287f5;
+			padding: 10px;
+			border: none;
+			color: white;
+			outline: none;
+			cursor: pointer;
+			width: 36px;
+			height: 36px;
+			text-align: center;
+		}
+
+		.MoldalMensagens .telas #trMsgLoading .adicionar{
+			border-radius: 3px;
+			background-color: #800800;
+		}
+		.MoldalMensagens .telas #trMsgLoading .adicionar .carregarMaisT i{
+			margin-right: 0;
+		}
+		.MoldalMensagens .telas #trMsgLoading button{
+			width: 30px;
+			height: 30px;
+			margin: 0;
+		}
+		.MoldalMensagens .telas main{
+			padding: 20px;
+			color: white;
+		}
+		.MoldalMensagens .telas main h4{
+			border-left: 4px solid #4287f5;
+			padding-left: 10px;
+		}
+		.MoldalMensagens .telas main textarea{
+			resize: none;
+			padding: 10px;
+			color: white;
+			border: none;
+			border-radius: 3px;
+			outline: none;
+			width: 95%;
+			height: 43vh;
+			background-color: #18191a;
+		}
+		.MoldalMensagens .telas .dadosRemetente{
+			display: grid;
+			grid-template-columns: 40px 1fr;
+			grid-column-gap: 20px;
+		}
+		.MoldalMensagens .telas .dadosRemetente img{
+			height: 40px;
+			width: 40px;
+			border-radius: 50%;
+		}
+		.MoldalMensagens .telas .dadosRemetente div{
+			display: flex;
+			align-items: center;
+		}
+
+		/*Moldal de livros*/
+
+		#MoldalLivros{
+			z-index: 9999999;
+			position: fixed;
+			height: 100%;
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.9);
+			overflow: auto;
+			display: none;
+			scrollbar-color: #D43D02FF #1f1d1d;
+		}
+		#MoldalLivros::-webkit-scrollbar-thumb{
+			background-color: #D43D02FF;
+		}
+		#MoldalLivros .livrosM{
+			width: 500px;
+			margin: auto;
+			padding-top: 100px;
+		}
+		#MoldalLivros .livrosM select{
+			padding: 10px;
+			outline: none;
+			border: none;
+			border-radius: 3px;
+			background-color: #191a19;
+			color: white;
+		}
+		#MoldalLivros .livrosM input[type=text]{
+			padding: 10px;
+			border: none;
+			outline: none;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			border-radius: 3px;
+			width: 95%;
+			display: none;
+		}
+		#MoldalLivros .livrosM a{
+			color: black;
+		}
+		#MoldalLivros .livrosM main{
+			padding: 10px;
+			background-color: #0d0d0d;
+			border-radius: 3px;
+			display: grid;
+			grid-template-columns: 70px 1fr;
+			color: white;
+			border-right: 5px solid #4287f5;
+			margin-bottom: 20px;
+			margin-top: 20px;
+			transition-duration: 0.3s;
+		}
+		#MoldalLivros .livrosM main:hover{
+			border: none;
+			border-left: 5px solid #800800;
+		}
+		#MoldalLivros .livrosM main img{
+			width: 65px;
+			height: 100%;
+			border-radius: 3px;
+		}
+		#MoldalLivros .livrosM button{
+			outline: none;
+			padding: 10px;
+			border-radius: 50%;
+			border: none;
+			width: 40px;
+			height: 40px;
+			cursor: pointer;
+			font-size: 18px;
+			transition-duration: 0.3s;
+			background-color: #870707;
+			color: white;
+			margin-left: 47%;
+			margin-right: 47%;
+		}
+		#MoldalLivros .livrosM button:hover{
+			transform: scale(1.1);
+		}
+		#MoldalLivros .livrosM main div{
+			padding: 10px;
+		}
+		#MoldalLivros .CPlus{
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			margin-top: 30px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#MoldalLivros .loading{
+			height: 30px;
+			width: 30px;
+			margin-bottom: 50px;
+			margin-top: 30px;
+		}
+		#MoldalLivros h4{
+			color: white;
+			text-align: center;
+			padding: 30px;
+		}
+		#MoldalLivros .livrosM main div h4{
+			padding: 0;
+			text-align: left;
+			font-size: 15px;
+		}
+		#MoldalLivros .livrosM main div p{
+			font-size: 12px;
+		}
+
+		/*Loading*/
+
+		.loading{
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			border: 2px solid white;
+			border-left: 2px solid #4287f5;
+			margin: auto;
+			animation: loading 1s linear infinite;
+			background-color: transparent;
+			margin-top: 20px;
+		}
+		@keyframes loading{
+			to{transform: rotate(360deg);}
+		}
+
+		/*Moldal de Loading*/
+
+		#moldalLoading{
+			position: fixed;
+			height: 100%;
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.9);
+			z-index: 9999999999999999;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			display: none;
+		}
+
+		#moldalLoading div{
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+			border: 2px solid white;
+			border-left: 2px solid #4287f5;
+			animation: loading 1s linear infinite;
+		}
+
+		/*Moldal de Aviso*/
+
+		#MoldalAviso{
+			position: fixed;
+			height: 100%;
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.9);
+			z-index: 9999999999999;
+			display: none;
+			align-items: center;
+			justify-content: center;
+		}
+		#MoldalAviso main{
+			width: 400px;
+			padding: 30px;
+			background-color: white;
+			border-radius: 3px;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
+		#MoldalAviso main .containeAv{
+			display: grid;
+			grid-template-columns: 1fr 50px;
+		}
+		#MoldalAviso main .containeAv i{
+			font-size: 50px;
+		}
+		#MoldalAviso main .containeAv div{
+			display: flex;
+			align-items: center;
+		}
+		#MoldalAviso main hr{
+			margin: 10px 0 10px 0;
+		}
+		#MoldalAviso main button{
+			width: 50px;
+			border: none;
+			padding: 10px;
+			cursor: pointer;
+			background-color: #086fa6;
+			border-radius: 3px;
+			color: white;
+			margin-left: 87%;
+			transition-duration: 0.3s;
+			outline: none;
+		}
+		#MoldalAviso main button:hover{
+			background-color: #023e5e;
+		}
+		#MoldalAviso main .fa-times-circle{
+			color: #941004;
+		}
+		#MoldalAviso main .fa-check-circle{
+			color: #02701f;
+		}
+		#MoldalMensagensView{
+			width: 400px;
+		}
+
+		/*Responsividade*/
+
+		@media(max-width: 960px){
+			#menu #barraPesquisa input[type=text]{
+				width: 400px;
+			}
+			#menu ul{
+				height: 100%;
+				display: grid;
+				grid-template-rows: 1fr;
+				grid-template-columns: 100px 1fr 200px;
+			}
+		}
+
+		@media(max-width: 800px){
+			.MoldalMensagens .telas{
+				width: 500px;
+			}
+		}
+
+		@media(max-width: 750px){
+			#menu ul{
+				grid-template-columns: 1fr 1fr 1fr;
+			}
+			#menu .textPesq{
+				display: block;
+			}
+			#menu #barraPesquisa{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			#menu #barraPesquisa{
+				grid-column: 4/3;
+				grid-row: 1/3;
+				display: flex;
+				justify-content: flex-end;
+				padding-right: 20px;
+			}
+			#menu #imgInicial{
+				grid-column: 2/2;
+			}
+			#menu #barraPesquisa input[type=text]{
+				display: none;
+			}
+			#MoldalLivros .livrosM input[type=text]{
+				display: block;
+			}
+			#MoldalLivros .livrosM main .loading{
+				width: 20px;
+				height: 20px;
+			}
+		}
+		@media(max-width: 650px){
+			#MoldalLivros .livrosM{
+				width: 350px;
+			}
+			#MoldalLivros .livrosM h4{
+				font-size: 15px;
+			}
+			#MoldalLivros .livrosM main div h4{
+				font-size: 12px;
+			}
+		}
+		@media(max-width: 600px){
+			.MoldalMensagens .telas{
+				width: 400px;
+			}
+			.MoldalMensagens .telas tbody td .fa-eye{
+				display: none;
+			}
+			.MoldalMensagens .telas header h5{
+				font-size: 11px;
+			}
+			#MoldalMensagensView{
+				height: 400px;
+				width: 350px;
+			}
+			#MoldalMensagensView h4{
+				font-size: 12px;
+			}
+			#MoldalMensagensView .dadosRemetente h5{
+				font-size: 11px;
+			}
+			#MoldalMensagensView .tabelaMsg textarea{
+				font-size: 11px;
+				height: 28vh;
+			}
+			.MoldalMensagens .tabelaMsg form input[type=text]{
+				font-size: 11px;
+			}
+		}
+		@media(max-width: 550px){
+			#menu #imgInicial img{
+				width: 35px;
+				height: 35px;
+			}
+			#menuB{
+				height: 50px;
+				font-size: 12px;
+			}
+			#menuB ul li{
+				line-height: 40px;
+			}
+			#menu2 div{
+				font-size: 13px;
+			}
+			#menu2 div img{
+				height: 100px;
+				width: 100px;
+				border-radius: 50%;
+				position: relative;
+				left: 50%;
+				margin-left: -50px;
+				margin-top: 40px;
+			}
+			#menu2 ul li{
+				font-size: 15px;
+			}
+			#MoldalAviso main{
+				width: 250px;
+				font-size: 15px;
+			}
+			#MoldalAviso main .containeAv i{
+				font-size: 30px;
+			}
+			#MoldalAviso main button{
+				width: 50px;
+				padding: 7px;
+				cursor: pointer;
+				margin-left: 84%;
+			}
+		}
+		@media(max-width: 500px){
+			.MoldalMensagens .telas{
+				width: 300px;
+				height: 300px;
+			}
+			.MoldalMensagens .telas tbody td{
+				font-size: 10px;
+			}
+			#menuB ul li{
+				width: 70px;
+			}
+		}
+		@media(max-width: 480px){
+			#MoldalLivros .livrosM{
+				width: 250px;
+			}
+			#MoldalLivros .livrosM{
+				font-size: 10px;
+			}
+			#MoldalLivros .livrosM h4{
+				font-size: 10px;
+			}
+			#MoldalLivros .livrosM main img{
+				width: 40px;
+			}
+			#MoldalLivros .livrosM main{
+				grid-template-columns: 40px 1fr;
+			}
+			#MoldalLivros .livrosM main, #MoldalLivros .livrosM main div{
+				padding: 5px;
+			}
+			#MoldalMensagensView{
+				height: 350px;
+				width: 300px;
+			}
+			#MoldalLivros .livrosM main div h4{
+				font-size: 10px;
+			}
+			#MoldalLivros .livrosM main div p{
+				font-size: 10px;
+			}
+		}
+		@media(max-width: 400px){
+			#MoldalMensagensView{
+				height: 300px;
+				width: 270px;
+			}
+			#MoldalMensagensView h4{
+				font-size: 11px;
+			}
+			#MoldalMensagensView .dadosRemetente h5{
+				font-size: 10px;
+			}
+			#MoldalMensagensView .tabelaMsg textarea{
+				font-size: 10px;
+				height: 12vh;
+			}
+			.MoldalMensagens .tabelaMsg form input[type=text]{
+				font-size: 10px;
+			}
+		}
+		@media(max-width: 370px){
+			.MoldalMensagens .telas{
+				width: 280px;
+			}
+			.MoldalMensagens .telas thead th{
+				font-size: 10px;
+			}
+			.MoldalMensagens .telas tbody td{
+				font-size: 10px;
+			}
+			.MoldalMensagens .telas header h5{
+				font-size: 9px;
+			}
+		}
+		@media(max-width: 350px){
+			.MoldalMensagens .telas{
+				width: 260px;
+			}
+			.MoldalMensagens .telas thead th{
+				font-size: 8px;
+			}
+			.MoldalMensagens .telas tbody td{
+				font-size: 8px;
+			}
+		}

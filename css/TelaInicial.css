@@ -1,0 +1,489 @@
+		.subMenuOp{
+			width: 100%;
+			padding-top: 150px;
+			position: absolute;
+			transition-duration: 0.5s;
+		}
+		.subMenuOp #generos{
+			width: 700px;
+			margin: auto;
+			margin-bottom: 20px;
+		}
+		.subMenuOp #generos a{
+			color: black;
+		}
+		.subMenuOp #generos{
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 10px; 
+		}
+		.subMenuOp #generos div div{
+			padding: 20px;
+			background-color: #0d0d0d;
+			border-radius: 3px;
+			border-left: 5px solid #4287f5;
+			transition-duration: 0.3s;
+			margin: auto;
+			cursor: pointer;
+			color: white;
+		}
+		.subMenuOp #generos div div:hover{
+			border: none;
+			border-right: 5px solid #800800;
+		}
+		#Carrosseis .container{
+			display: flex;
+			flex-wrap: nowrap;
+			align-items: center;
+		}
+		#Carrosseis .carrosselLivros{
+			width: 1090px;
+			padding: 10px;
+			border-radius: 3px;
+			margin: auto;
+			position: relative;
+			overflow: auto;
+			scrollbar-width: none;
+		}
+		#Carrosseis .carrosselLivros::-webkit-scrollbar{
+			display: none;
+		}
+		#Carrosseis .container .btnLivro{
+			height: 30px;
+			width: 30px;
+			padding: 5px;
+			background-color: #800800;
+			border-radius: 50%;
+			opacity: 0.8;
+			cursor: pointer;
+			color: white;
+			font-size: 30px;
+			text-align: center;
+			float: left;
+			margin: 30px;
+		}
+		#Carrosseis .carrosselLivros ul{
+			display: grid;
+			grid-template-columns: repeat(11, 1fr);
+			grid-template-rows: 1fr;
+		}
+		#Carrosseis .carrosselLivros ul li{
+			width: 200px;
+			color: white;
+			margin: 10px;
+			display: inline-block;
+			cursor: pointer;
+			transition-duration: 0.3s;
+			background-color: #0d0d0d;
+			border-radius: 3px;
+		}
+		#Carrosseis .carrosselLivros ul li:hover{
+			box-shadow: 0px 0px 5px 3px #141414; 
+		}
+		#Carrosseis .carrosselLivros ul li img{
+			width: 100%;
+			height: 300px;
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+			transition-duration: 0.3s;
+		}
+		#Carrosseis .carrosselLivros ul li .number{
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			padding: 10px;
+			background-color: #800800;
+			position: absolute;
+			margin-top: -15px;
+			margin-left: -10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#Carrosseis .carrosselLivros ul li .infoLivroInicio{
+			padding: 20px;
+		}
+		#Carrosseis .carrosselLivros ul li{
+			font-size: 12px;
+		}
+		#Carrosseis .carrosselLivros ul li h5{
+			font-size: 15px;
+		}
+		#Carrosseis .TituloC{
+			padding: 20px;
+			color: white;
+			width: 1100px;
+			margin: auto;
+		}
+		#Carrosseis .TituloC h2{
+			padding-right: 20px;
+			border-bottom: 5px solid #800800;
+			padding-bottom: 5px;
+			display: inline-block;
+		}
+		#Carrosseis .TituloC div{
+			margin-left: 20px;
+			width: 30px;
+			height: 30px;
+			padding: 5px;
+			background-color: #800800;
+			border-radius: 50%;
+			display: block;
+			font-size: 20px;
+			text-align: center;
+			display: inline-block;
+			line-height: 30px;
+			cursor: pointer;
+			transition-duration: 0.3s;
+		}
+		#Carrosseis .TituloC div:hover{
+			background-color: #470601;
+		}
+		.CarregarMais{
+			width: 150px;
+			padding: 10px;
+			background-color: #4287f5;
+			border-radius: 2px;
+			color: white;
+			text-align: center;
+			margin: auto;
+			margin-bottom: 50px;
+			margin-top: 50px;
+			cursor: pointer;
+			transition-duration: 0.3s;
+		}
+		.CarregarMais:hover{
+			background-color: #043152;
+		}
+		#Carrosseis .carrosselLivros ul .liESqpecial{
+			height: auto;
+			background-color: transparent;
+			padding: 0;
+			cursor: default;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#Carrosseis .carrosselLivros ul .liESqpecial:hover{
+			box-shadow: none;
+		}
+		#Carrosseis .carrosselLivros ul li .CPlus{
+			width: 20px;
+			height: 20px;
+			font-size: 20px;
+			border-radius: 50%;
+			padding: 10px;
+		}
+		#Carrosseis .carrosselLivros ul li .CPlusLoading, .CPlusLoading{
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			border: 2px solid white;
+			border-left: 2px solid #4287f5;
+			animation: loading 1s linear infinite;
+		}
+		.loading{
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			border: 2px solid white;
+			border-left: 2px solid #4287f5;
+			margin: auto;
+			margin-bottom: 50px;
+			margin-top: 50px;
+			animation: loading 1s linear infinite;
+		}
+		@keyframes loading{
+			to{transform: rotate(360deg);}
+		}
+		#containerListas{
+			width: 85%;
+			margin: auto;
+			display: grid;
+			grid-template-rows: 60px 1fr;
+		}
+		#containerListas .divInputPesq{
+			display: flex;
+			flex-direction: column;
+		}
+		#containerListas .divInputPesq input[type=text]{
+			padding: 10px;
+			border: none;
+			border-radius: 3px;
+			outline: none;
+			background-color: transparent;
+			color: white;
+			border-bottom: 2px solid #4287f5;
+		}
+		#containerListas .listasUsuarios{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		#containerListas .listasUsuarios .listU{
+			height: 300px;
+			width: 200px;
+			background-color: #0d0d0d;
+			color: white;
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: 200px 1fr;
+			grid-column-gap: 10px;
+			border-radius: 3px;
+			transition-duration: 0.3s;
+			margin-bottom: 20px;
+			margin: 10px;
+			box-shadow: 0px 0px 10px black;
+		}
+		#containerListas .listasUsuarios .listU .ImageUserList{
+			overflow: hidden;
+		}
+		#containerListas .listasUsuarios .listU .ImageUserList img{
+			width: 100%;
+			height: 100%;
+			transition-duration: 0.3s;
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+		}
+		
+		#containerListas .listasUsuarios .listU .infoList{
+			padding: 10px;
+		}
+		#containerListas .listasUsuarios .listU:hover > .ImageUserList img{
+			transform: scale(1.1);
+		}
+		#containerListas .listasUsuarios .listU div{
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
+		#containerListas .listasUsuarios .listU div p{
+			margin-top: 10px;
+			font-size: 14px;
+		}
+		#containerListas .listasUsuarios .loading{
+			width: 30px;
+			height: 30px;
+		}
+		#containerListas .listasUsuarios .CarregarMais{
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			padding: 2px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 15px;
+		}
+		#containerListas .listasUsuarios h4{
+			color: white;
+			text-align: center;
+			margin-top: 30px;
+		}
+
+		/*Responsividade*/
+
+		@media(max-width: 1300px){
+			#Carrosseis .carrosselLivros{
+				width: 885px;
+			}
+			#Carrosseis .container .btnLivro{
+				margin: 20px;
+			}
+			#Carrosseis .carrosselLivros ul li{
+				width: 160px;
+			}
+			#Carrosseis .carrosselLivros ul li img{
+				height: 250px;
+			}
+			#Carrosseis .TituloC{
+				width: 100%;
+				padding: 0px 0px 40px 120px;
+			}
+			#Carrosseis .carrosselLivros ul li{
+				font-size: 10px;
+			}
+			#Carrosseis .carrosselLivros ul li h5{
+				font-size: 12px;
+			}
+		}
+
+		@media(max-width: 1080px){
+			#Carrosseis .carrosselLivros{
+				width: 785px;
+			}
+			#Carrosseis .carrosselLivros ul li img{
+				height: 230px;
+			}
+			#Carrosseis .carrosselLivros ul li .number{
+				padding: 5px;
+				margin-top: -10px;
+				margin-left: -5px;
+			}
+		}
+
+		@media(max-width: 980px){
+			#Carrosseis .carrosselLivros{
+				width: 760px;
+			}
+			#Carrosseis .carrosselLivros ul li{
+				width: 145px;
+			}
+			#Carrosseis .carrosselLivros ul li img{
+				height: 230px;
+			}
+			#Carrosseis .TituloC{
+				padding: 0px 0px 20px 100px;
+			}
+		}
+
+		@media(max-width: 960px){
+			#Carrosseis .carrosselLivros{
+				width: auto;
+				padding: 40px;
+			}
+			#Carrosseis .carrosselLivros ul li{
+				width: 170px;
+			}
+			#Carrosseis .carrosselLivros ul li img{
+				height: 250px;
+			}
+			#Carrosseis .TituloC{
+				padding: 0px 0px 0px 40px;
+			}
+			#Carrosseis .container .btnLivro{
+				display: none;
+			}
+		}
+
+		@media(max-width: 800px){
+			#Carrosseis .TituloC{
+				padding: 0px 0px 20px 50px;
+				font-size: 14px;
+			}
+			#Carrosseis .TituloC div{
+				height: 25px;
+				width: 25px;
+				font-size: 15px;
+				line-height: 25px;
+			}
+			.subMenuOp #generos{
+				width: 600px;
+			}
+		}
+
+		@media(max-width: 750px){
+			.subMenuOp #generos{
+				grid-template-columns: 1fr;
+			}
+			.subMenuOp #generos{
+				width: 400px;
+			}
+			#containerListas{
+				width: 400px;
+			}
+		}
+
+		@media(max-width: 650px){
+			#Carrosseis .carrosselLivros ul li{
+				width: 130px;
+				font-size: 12px;
+			}
+			#Carrosseis .carrosselLivros ul li img{
+				height: 180px;
+			}
+			#Carrosseis .TituloC{
+				font-size: 12px;
+			}
+			#Carrosseis .carrosselLivros ul li .CPlus{
+				width: 15px;
+				height: 15px;
+				font-size: 15px;
+			}
+			#Carrosseis .carrosselLivros ul li .CPlusLoading{
+				width: 20px;
+				height: 20px;
+			}
+			.loading{
+				width: 30px;
+				height: 30px;
+			}
+			#Carrosseis .carrosselLivros ul li .infoLivroInicio{
+				padding: 10px;
+			}
+			#Carrosseis .carrosselLivros ul li{
+				font-size: 8px;
+			}
+			#Carrosseis .carrosselLivros ul li h5{
+				font-size: 10px;
+			}
+		}
+		@media(max-width: 600px){
+			#containerListas .listasUsuarios .listU{
+				height: 250px;
+				width: 150px;
+				grid-template-rows: 150px 1fr;
+				font-size: 12px;
+			}
+			#containerListas .listasUsuarios .listU div p{
+				font-size: 11px;
+			}
+		}
+		@media(max-width: 550px){
+			.subMenuOp #generos{
+				width: 100%;
+			}
+			.subMenuOp #generos div{
+				width: 80%;
+				margin-left: 10%;
+			}
+			#Carrosseis .carrosselLivros ul li{
+				width: 100px;
+				font-size: 10px;
+			}
+			#Carrosseis .carrosselLivros ul li img{
+				height: 150px;
+			}
+			#Carrosseis .TituloC{
+				font-size: 10px;
+			}
+			.CarregarMais{
+				font-size: 12px;
+				width: 100px;
+				margin-top: 20px;
+			}
+			#Carrosseis .carrosselLivros ul li{
+				margin: 5px;
+			}
+			.subMenuOp #generos div div{
+				padding: 15px;
+				font-size: 15px;
+				border-radius: 3px;
+			}
+			#Carrosseis .carrosselLivros ul li{
+				font-size: 5px;
+			}
+			#Carrosseis .carrosselLivros ul li h5{
+				font-size: 7px;
+			}
+			#Carrosseis .carrosselLivros ul li .number{
+				font-size: 10px;
+			}
+		}
+		@media(max-width: 500px){
+			#containerListas{
+				width: 80%;
+			}
+			#containerListas h4{
+				font-size: 14px;
+			}
+			#containerListas .listasUsuarios .listU{
+				height: 170px;
+				width: 100px;
+				grid-template-rows: 100px 1fr;
+				font-size: 10px;
+			}
+			#containerListas .listasUsuarios .listU div p{
+				font-size: 10px;
+			}
+		}

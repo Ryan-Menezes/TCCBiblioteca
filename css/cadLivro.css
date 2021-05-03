@@ -1,0 +1,562 @@
+		body{
+			background-image: url("../Imagens/telaFundo.png");
+			background-size: cover;
+		}
+		#menu ul{
+			grid-template-columns: 1fr 200px;
+		}
+		#mn span{
+			padding: 10px;
+			width: 10px;
+			height: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: #4287f5;
+			border-radius: 50%;
+			font-size: 15px;
+			transition-duration: 0.3s;
+		}
+		#mn span:hover{
+			background-color: #1758bf;
+		}
+		#mn h5{
+			margin-left: 10px;
+		}
+		#container{
+			padding-top: 100px;
+			padding-bottom: 50px;
+		}
+		form{
+			padding: 20px;
+			background-color: #080808;
+			width: 600px;
+			border-radius: 3px;
+			margin: auto;
+			box-shadow: 0px 0px 5px black;
+			display: grid;
+			grid-template-columns: 200px 1fr;
+		}
+		.inputs{
+			padding: 20px;
+		}
+		input[type=file]{
+			display: none;
+		}
+		form #containerImg{
+			padding: 20px;
+			text-align: center;
+		}
+		form #containerImg img{
+			width: 100%;
+			height: 250px;
+			border-radius: 3px;
+			cursor: pointer;
+		}
+		form fieldset{
+			border-radius: 3px;
+			padding: 5px;
+			color: white;
+			border: 1px solid gray;
+		}
+		form .inputs input[type=text], form .inputs input[type=date], form .inputs input[type=number]{
+			padding: 10px;
+			border-radius: 3px;
+			border: none;
+			background-color: #141313;
+			width: auto;
+			color: white;
+			border: 1px solid #141313;
+			outline: none;
+		}
+		form .inputs select{
+			padding: 10px;
+			border-radius: 3px;
+			border: none;
+			background-color: #141313;
+			width: 100%;
+			color: white;
+			border: 1px solid #141313;
+			outline: none;
+			width: 100%;
+		}
+		form .inputs select option{
+			padding: 2px;
+		}
+		form .inputs input:-webkit-autofill{
+			-webkit-box-shadow: 0 0 0 30px #141313 inset;
+			-webkit-text-fill-color: white;
+		}
+		form .inputs input[type=date]{
+			margin: 0;
+		}
+		form .spanAlerta, .spanCad{
+			color: #5c0101;
+			display: none;
+		}
+		form .inputs .inputFlexContainer{
+			display: flex;
+			flex-direction: column;
+		}
+		form .inputs .inputFlexContainer input{
+			width: auto;
+		}
+		#input1{
+			padding-bottom: 0;
+		}
+		#input2{
+			grid-column: 3/1;
+			padding-top: 0;
+		}
+		form .divide{
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-column-gap: 20px;
+		}
+		form .dividePDF{
+			display: grid;
+			grid-template-columns: 1fr 40px;
+			margin-bottom: 50px;
+			
+		}
+		form .dividePDF label, form .dividePDF button{
+			width: 100%;
+			background-color: #4287f5;
+			border: none;
+			color: white;
+			cursor: pointer;
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
+			transition-duration: 0.3s;
+		}
+		form .dividePDF label{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 999999;
+		}
+		form .inputComBTN{
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr 35px;
+			grid-row-gap: 10px;
+		}
+		form .inputComBTN button{
+			width: 120px;
+			background-color: #4287f5;
+			border: none;
+			color: white;
+			cursor: pointer;
+			border-radius: 3px;
+			transition-duration: 0.3s;
+		}
+		form .inputComBTN button:hover, form .dividePDF label:hover, form .dividePDF button:hover{
+			background-color: #1758bf;
+		}
+		form #btnCad{
+			display: flex;
+			justify-content: flex-end;
+			grid-column: 3/2;
+		}
+		form #btnCad input{
+			width: 150px;
+			height: 40px;
+			border: none;
+			margin: 20px;
+			cursor: pointer;
+			color: white;
+			background-color: #4287f5;
+			border-radius: 3px;
+			transition-duration: 0.3s;
+		}
+		form #btnCad input:hover{
+			background-color: #1758bf;
+		}
+		footer{
+			padding: 20px;
+			background-color: black;
+			text-align: center;
+			color: white;
+		}
+
+		/*Moldal de Opções*/
+
+		.MoldalOpcoes, .MoldaCad{
+			position: fixed;
+			z-index: 99999999;
+			background-color: rgba(0, 0, 0, 0.9);
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+			display: none;
+			align-items: center;
+			justify-content: center;
+		}
+		.MoldalOpcoes .telas .fechaMoldalOpcoes, .MoldaCad .telas .fechaMoldalCad{
+			position: absolute;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			color: white;
+			background-color: #870707;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 20px;
+			cursor: pointer;
+			top: -25px;
+			right: -25px;
+			transition-duration: 0.3s;
+		}
+		.MoldalOpcoes .telas .fechaMoldalOpcoes:hover, .MoldaCad .telas .fechaMoldalCad:hover{
+			transform: scale(1.1);
+		}
+		.MoldalOpcoes .telas, .MoldaCad .telas{
+			width: 500px;
+			height: 500px;
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: 50px 1fr;
+			background-color: #080707;
+			box-shadow: 0px 0px 5px #1c1919;
+			border-radius: 5px;
+			position: relative;
+			margin: 40px;
+		}
+		.MoldalOpcoes .telas main{
+			display: flex;
+			align-items: center;
+			width: 90%;
+			margin-left: 5%;
+			margin-top: 30px;
+		}
+		.MoldalOpcoes .telas main input[type=text], .MoldaCad .telas input{
+			padding: 10px;
+			border: none;
+			border-top-left-radius: 3px;
+			border-bottom-left-radius: 3px;
+			outline: none;
+			width: 90%;
+			background-color: #161717;
+			color: white;
+		}
+		.MoldaCad .telas input:-webkit-autofill{
+			-webkit-box-shadow: 0 0 0 30px #161717 inset;
+			-webkit-text-fill-color: white;
+		}
+		.MoldalOpcoes .telas main input[type=text]:-webkit-autofill{
+			-webkit-box-shadow: 0 0 0 30px #161717 inset;
+			-webkit-text-fill-color: white;
+		}
+		.MoldalOpcoes .telas main button{
+			padding: 10px;
+			border: none;
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
+			outline: none;
+			color: white;
+			background-color: #161717;
+		}
+		.MoldalOpcoes .telas header div, .MoldaCad .telas header div{
+			display: flex;
+			align-items: center;
+			margin-left: 10px;
+		}
+		.MoldalOpcoes .telas header, .MoldaCad .telas header{
+			background-color: black;
+			display: flex;
+			align-items: center;
+			color: white;
+			justify-content: space-between;
+			border-top-right-radius: 5px;
+			border-top-left-radius: 5px;
+		}
+		.MoldalOpcoes .telas header img, .MoldaCad .telas header img{
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			margin-right: 10px;
+		}
+		.MoldalOpcoes .telas header h5, .MoldaCad .telas header h5{
+			margin-left: 10px;
+		}
+		.MoldalOpcoes .telas section, .MoldaCad .telas section{
+			overflow: auto;
+			display: grid;
+			grid-template-rows: 50px 1fr  70px;
+		}
+		.MoldalOpcoes .telas table{
+			width: 90%;
+			color: white;
+			margin-top: 30px;
+			text-align: center;
+			border-collapse: collapse;
+			margin-left: 5%;
+			margin-bottom: 50px;
+		}
+		.MoldalOpcoes .telas table thead th{
+			height: 50px;
+			background-color: #0a0a0a;
+			color: white;
+			width: 8.333%;
+			font-size: 14px;
+		}
+		.MoldalOpcoes .telas tbody td{
+			padding:  5px 10px 5px 10px;
+			text-align: center;
+			color: white;
+			height: 40px;
+			border-top: 1px solid gray;
+			font-size: 13px;
+		}
+		.MoldalOpcoes .telas tbody tr{
+			transition-duration: 0.3s;
+			background-color: #141414; 
+		}
+		.MoldalOpcoes .telas tbody tr:hover{
+			background-color: #242323;
+		}
+		.MoldalOpcoes .telas tbody td img{
+			height: 100%;
+			border-radius: 2px;
+		}
+		.MoldalOpcoes .telas tbody td i{
+			cursor: pointer;
+			font-size: 17px;
+			margin-right: 5px;
+		}
+
+		/*Rodape da moldal*/
+
+		.MoldalOpcoes .telas footer{
+			background-color: black;
+			border-bottom-right-radius: 5px;
+			border-bottom-left-radius: 5px;
+			display: grid;
+			grid-template-columns: 45% 55%;
+		}
+		.MoldalOpcoes .telas footer div{
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+		}
+		.MoldalOpcoes .telas footer .btns, .MoldalOpcoes .telas footer .adicionar{
+			padding: 10px;
+			border: none;
+			color: white;
+			outline: none;
+			cursor: pointer;
+		}
+		.MoldalOpcoes .telas footer .carregarMaisT{
+			border-radius: 50%;
+			background-color: #4287f5;
+		}
+
+		.MoldalOpcoes .telas footer .adicionar{
+			border-radius: 3px;
+			background-color: #800800;
+		}
+
+		/*Moldal de cadastro*/
+
+		.MoldaCad .telas{
+			height: auto;
+			width: 400px;
+		}
+
+		.MoldaCad .telas section{
+			height: 100%;
+			display: flex;
+			justify-content: flex-start;
+		}
+
+		.MoldaCad .telas input{
+		 	width: 95%;
+		 	border-radius: 3px;
+		 	height: 20px;
+		 }
+
+		.MoldaCad section form{
+			display: flex;
+			height: auto;
+			box-shadow: none;
+			justify-content: flex-start;
+			flex-direction: column;
+		}
+
+		.MoldaCad .telas input[type=submit]{
+			height: 40px;
+			cursor: pointer;
+			width: 150px;
+			background-color: #4287f5;
+			transition-duration: 0.3s;
+		}
+
+		.MoldaCad .telas fieldset select{
+			padding: 10px;
+			border-radius: 3px;
+			border: none;
+			background-color: #141313;
+			width: 100%;
+			color: white;
+			border: 1px solid #141313;
+			outline: none;
+			width: 100%;
+		}
+
+		.MoldaCad .telas input[type=submit]:hover{
+			background-color: #1758bf;
+		}
+
+		/*Moldal de Loading*/
+
+		#moldalLoading{
+			position: fixed;
+			height: 100%;
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.9);
+			z-index: 99999999999;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			display: none;
+		}
+
+		#moldalLoading div{
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+			border: 2px solid white;
+			border-left: 2px solid #4287f5;
+			animation: loading 1s linear infinite;
+		}
+
+		@keyframes loading{
+			to{transform: rotate(360deg);}
+		}
+
+		.loading{
+			margin: auto;
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+			border: 2px solid white;
+			border-left: 2px solid #4287f5;
+			animation: loading 1s linear infinite;
+		}
+
+		/*Responsividade*/
+
+		@media(max-width: 600px){
+			.MoldalOpcoes .telas{
+				width: 400px;
+				height: 400px;
+			}
+			.MoldalOpcoes .telas header{
+				font-size: 15px;
+			}
+			.MoldalOpcoes .telas table{
+				font-size: 15px;
+			}
+			.MoldalOpcoes .telas table td i, .MoldalOpcoes .telas table td{
+				font-size: 12px;
+			}
+			.MoldalOpcoes .telas table thead th{
+				font-size: 11px;
+			}
+		}
+
+		@media(max-width: 680px){
+			#container{
+				padding: 0px;
+			}
+			#container form{
+				width: auto;
+				border-radius: 20px;
+				display: flex;
+				flex-direction: column;
+			}
+			#menu{
+				position: relative;
+			}
+		}
+
+		@media(max-width: 500px){
+			#containerImg, #input1{
+				grid-column: 3/1;
+			}
+			form #containerImg img{
+				width: 150px;
+				height: 220px;
+				border-radius: 3px;
+				cursor: pointer;
+			}
+			#input1{
+				padding-bottom: 0;
+			}
+			#input2{
+				padding-top: 0;
+			}
+			form .divide{
+				grid-template-columns: 1fr;
+			}
+		}
+
+		@media(max-width: 480px){
+			.MoldalOpcoes .telas{
+				width: 350px;
+			}
+			.MoldaCad .telas .selectI{
+				padding: 10px;
+			}
+			.MoldalOpcoes .telas header, .MoldaCad .telas header{
+				font-size: 12px;
+			}
+			footer{
+				font-size: 12px;
+			}
+		}
+
+		@media(max-width: 430px){
+			#menu h5{
+				font-size: 15px;
+			}
+		}
+
+		@media(max-width: 425px){
+			.MoldalOpcoes .telas{
+				width: 300px;
+			}
+			.MoldalOpcoes .telas header{
+				font-size: 13px;
+			}
+			.MoldalOpcoes .telas .adicionar, .MoldaCad .telas input[type=submit]{
+				font-size: 10px;
+			}
+		}
+
+		@media(max-width: 400px){
+			#menu h5{
+				font-size: 12px;
+			}
+		}
+
+		@media(max-width: 380px){
+			.MoldalOpcoes .telas{
+				width: 250px;
+			}
+			.MoldalOpcoes .telas table{
+				font-size: 11px;
+			}
+			.MoldalOpcoes .telas table td{
+				font-size: 10px;
+			}
+			.MoldalOpcoes .telas header{
+				font-size: 12px;
+			}
+			.MoldalOpcoes .telas .adicionar{
+				font-size: 10px;
+				padding: 8px;
+				margin-right: 10px;
+			}
+		}

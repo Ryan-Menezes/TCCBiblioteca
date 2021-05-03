@@ -1,0 +1,23 @@
+desc curso;
+SELECT * FROM CURSO;
+desc curso_usuario;
+
+alter table curso drop id_curso ; -- precisa apagar porque é auto_increment
+alter table curso add cod_curso int(4) not null primary key;
+
+
+alter table curso_usuario drop curso_id_curso;
+alter table curso_usuario add curso_id_curso int not null;
+alter table curso_usuario add foreign key(curso_id_curso) references curso(cod_curso)
+on delete cascade on update cascade;
+
+alter table curso_usuario change situacao situacao_curso enum('DETERMINADO','INDETERMINADO') not null;
+ 
+ -- recomendo que apague todos os registros destas tabelas, para que o novo cadastra fique correto.
+ 
+select * from curso_usuario;
+select * from usuario ;
+select * from aluno;
+select * from endereco_aluno;
+select * from contato_aluno;
+select * from instituicao_usuario;

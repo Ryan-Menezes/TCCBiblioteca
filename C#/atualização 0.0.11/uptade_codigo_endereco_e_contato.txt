@@ -1,0 +1,53 @@
+ -- recomendo que apague todos os registros destas tabelas, para que o novo cadastra fique correto.
+ 
+select * from curso_usuario;
+select * from usuario ;
+select * from aluno;
+select * from endereco_aluno;
+select * from contato_aluno;
+select * from instituicao_usuario;
+
+desc endereco_aluno;
+alter table endereco_aluno add rm_usuario_endereco int not null;
+alter table endereco_aluno add foreign key(rm_usuario_endereco) references usuario(rm_usuario)
+on delete cascade on update cascade;
+
+desc contato_aluno;
+alter table contato_aluno add rm_usuario_contato int not null;
+alter table contato_aluno add foreign key(rm_usuario_contato) references usuario(rm_usuario)
+on delete cascade on update cascade;
+
+select usuario.rm_usuario,usuario.nivel_acesso,usuario.status_usuario,
+aluno.nome ,aluno.sobrenome ,aluno.cpf ,aluno.sexo ,aluno.data_cadastro,
+curso_usuario.curso_id_curso,
+instituicao_usuario.cod_instituicao,
+contato_aluno.telefone,contato_aluno.celular,contato_aluno.email,
+endereco_aluno.cep , endereco_aluno.logradouro , endereco_aluno.numero , endereco_aluno.bairro , endereco_aluno.cidade
+from usuario
+left join aluno on aluno.rm_usuario_aluno = usuario.rm_usuario
+left join curso_usuario on curso_usuario.usuario_id_usuario = usuario.rm_usuario
+left join instituicao_usuario on instituicao_usuario.rm_usuario_instituicao = usuario.rm_usuario
+left join contato_aluno on contato_aluno.rm_usuario_contato = usuario.rm_usuario
+left join endereco_aluno on endereco_aluno.rm_usuario_endereco = usuario.rm_usuario ;
+-- left join;
+
+
+desc endereco_professor;
+alter table endereco_professor add rm_usuario_endereco int not null;
+alter table endereco_professor add foreign key(rm_usuario_endereco) references usuario(rm_usuario)
+on delete cascade on update cascade;
+
+desc contato_professor;
+alter table contato_professor add rm_usuario_contato int not null;
+alter table contato_professor add foreign key(rm_usuario_contato) references usuario(rm_usuario)
+on delete cascade on update cascade;
+
+desc endereco_funcionario;
+alter table endereco_funcionario add rm_usuario_endereco int not null;
+alter table endereco_funcionario add foreign key(rm_usuario_endereco) references usuario(rm_usuario)
+on delete cascade on update cascade;
+
+desc contato_funcionario;
+alter table contato_funcionario add rm_usuario_contato int not null;
+alter table contato_funcionario add foreign key(rm_usuario_contato) references usuario(rm_usuario)
+on delete cascade on update cascade;

@@ -1,0 +1,34 @@
+drop table funcionario;
+
+create table funcionario(
+rm_funcionario int(5) not null primary key,
+cpf char(11) not null unique,
+nome varchar(20) not null,
+sobrenome varchar(40) not null,
+sexo enum('M','F'),
+data_cadastro date not null,
+img_funcionario mediumblob) default charset = utf8;
+
+-- rm_usuario_funcionario
+alter table funcionario add rm_usuario_funcionario int(5) not null;
+alter table funcionario add foreign key(rm_usuario_funcionario) references usuario(rm_usuario)
+on delete cascade on update cascade;
+
+desc funcionario;
+desc endereco_funcionario;
+
+alter table endereco_funcionario drop cpf_funcionario_endereco;
+alter table endereco_funcionario add rm_funcionario_endereco int(5) not null;
+alter table endereco_funcionario add foreign key(rm_funcionario_endereco) references funcionario(rm_funcionario)
+on delete cascade on update cascade;
+
+desc contato_funcionario;
+alter table contato_funcionario drop cpf_funcionario_contato;
+alter table contato_funcionario add rm_funcionario_contato int(5) not null;
+alter table contato_funcionario add foreign key(rm_funcionario_contato) references funcionario(rm_funcionario)
+on delete cascade on update cascade;
+
+select * from funcionario;
+select * from usuario;
+select * from endereco_funcionario;
+select * from contato_funcionario;

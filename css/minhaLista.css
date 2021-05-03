@@ -1,0 +1,164 @@
+		#livrosGenero{
+			width: 900px;
+			padding-top: 100px;
+			margin: auto;
+		}
+		#livrosGenero .livrosG{
+			margin-top: 50px;
+			margin-bottom: 50px;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-gap: 20px;
+		}
+		#livrosGenero .livrosG main{
+			background-color: #0d0d0d;
+			border-radius: 3px;
+			color: white;
+			transition-duration: 0.3s;
+		}
+		#livrosGenero .livrosG main img{
+			height: 300px;
+			width: 100%;
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+		}
+		#livrosGenero .livrosG button{
+			padding: 8px;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			border-radius: 3px;
+			background-color: #4287f5;
+			color: white;
+		}
+		#livrosGenero .livrosG main h5{
+			font-size: 14px;
+		}
+		#livrosGenero .livrosG main{
+			font-size: 12px;
+		}
+		#livrosGenero .livrosG main div{
+			padding: 10px;
+		}
+		#livrosGenero .livrosG main .opLista{
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		#livrosGenero .livrosG main .opLista i{
+			font-size: 15px;
+			cursor: pointer;
+		}
+		.carregarMais{
+			width: 40px;
+			height: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 50%;
+			border: none;
+			cursor: pointer;
+			color: white;
+			background-color: #4287f5;
+			margin: auto;
+			margin-top: 20px;
+			transition-duration: 0.3s;
+		}
+		.carregarMais:hover{
+			background-color: #093375;
+		}
+		.loading{
+			background-color: transparent;
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			border: 2px solid white;
+			border-left: 2px solid #4287f5;
+			margin: auto;
+			margin-bottom: 50px;
+			margin-top: 20px;
+			animation: loading 1s linear infinite;
+		}
+		@keyframes loading{
+			to{transform: rotate(360deg);}
+		}
+		#loadingCont{
+			grid-column: 2/4;
+			text-align: center;
+			color: white;
+		}
+
+		@media(max-width: 1000px){
+			#livrosGenero{
+				width: 650px;
+			}
+			#livrosGenero{
+				font-size: 12px;
+			}
+			#livrosGenero .livrosG{
+				grid-template-columns: repeat(3, 1fr);
+			}
+			#loadingCont{
+				grid-column: 1/4;
+			}
+		}
+
+		@media(max-width: 800px){
+			#livrosGenero{
+				width: auto;
+				padding: 40px;
+				padding-top: 100px;
+			}
+			#livrosGenero .livrosG{
+				grid-template-columns: 1fr;
+			}
+
+			#livrosGenero h2{
+				font-size: 18px;
+			}
+
+			#loadingCont{
+				grid-column: 1/1;
+			}
+			#livrosGenero{
+				width: 400px;
+			}
+			#livrosGenero{
+				font-size: 12px;
+			}
+			#livrosGenero .livrosG{
+				grid-template-columns: repeat(2, 1fr);
+			}
+			#livrosGenero .livrosG main img{
+				height: 270px;
+			}
+			#loadingCont{
+				grid-column: 3/1;
+			}
+		}
+
+		@media(max-width: 480px){
+			#livrosGenero{
+				padding: 10px;
+				padding-top: 100px;
+			}
+			#livrosGenero h2{
+				font-size: 15px;
+			}
+			#livrosGenero{
+				width: 200px;
+			}
+			#livrosGenero{
+				font-size: 12px;
+			}
+			#livrosGenero .livrosG{
+				grid-template-columns: 1fr;
+			}
+			#livrosGenero .livrosG main img{
+				height: 270px;
+			}
+			#loadingCont{
+				grid-column: 1/1;
+			}
+		}

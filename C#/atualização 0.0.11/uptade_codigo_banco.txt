@@ -1,0 +1,41 @@
+-- SEGUE AS ALTERAÇÕES 
+
+-- exclusao das entidades que são usadas para n:m
+drop  table autor_livro;
+drop table genero_livro;
+drop table editora_livro;
+
+-- modificando chave primaria
+alter table livro drop cod_livro;
+alter table livro modify tombo int(12) not null primary key;
+
+-- colocando chaves estrageira na tabela livro
+
+alter table livro add editora_id_editora int not null;
+alter table livro add foreign key(editora_id_editora) references editora(id_editora)
+on delete cascade on update cascade;
+
+alter table livro add genero_id_genero int not null;
+alter table livro add foreign key(genero_id_genero) references genero(id_genero)
+on delete cascade on update cascade;
+
+alter table livro add autor_id_autor int not null;
+alter table livro add foreign key(autor_id_autor) references autor(id_autor)
+on delete cascade on update cascade;
+desc livro;
+
+-- modificando nome de cod para id & excluindo relacionamento sem sentido 
+
+desc autor;
+alter table autor drop cod_colaborador;
+
+desc colaboradores;
+alter table colaboradores drop cod_colaborador;
+alter table colaboradores modify id_colaborador int(5) not null auto_increment primary key ;
+
+-- fazendo relacionamento de livro com colaborador
+
+alter table livro add colaborador_id_colaborador int not null;
+alter table livro add foreign key(colaborador_id_colaborador) references colaboradores(id_colaborador)
+on delete cascade on update cascade;
+desc livro;
