@@ -9,7 +9,6 @@
 	$conexao = conexao::getConexao();
 
 	//Configurações sobre o recaptcha
-
 	$chaveSecreta = $codChaveRe;
 	$response = null;
     $reCaptcha = new reCaptcha($chaveSecreta);
