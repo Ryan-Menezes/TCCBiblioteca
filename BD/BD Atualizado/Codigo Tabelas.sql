@@ -1,6 +1,6 @@
 create database bdBibliotecaEtec
-default character set utf8
-default collate utf8_general_ci;
+default character set utf8mb4
+default collate utf8mb4_unicode_ci;
 
 use bdBibliotecaEtec;
 
@@ -11,7 +11,7 @@ sobrenome varchar(40) not null,
 cpf char(11) unique not null,
 sexo enum('M', 'F'),
 data_cadastro date not null,
-img_professor mediumblob not null) default charset = utf8;
+img_professor mediumblob not null) default charset = utf8mb4;
 
 create table endereco_professor(
 id_endereco_professor int not null auto_increment primary key,
@@ -21,14 +21,15 @@ numero int not null,
 bairro varchar(50) not null,
 cidade varchar(50) not null,
 complemento mediumtext
-) default charset = utf8;
+) default charset = utf8mb4;
 
 
 create table contato_professor(
 id_contato_professor int not null auto_increment primary key,
 telefone char(10),
 celular char(11) not null,
-email varchar(100) not null) default charset = utf8;
+email varchar(100) not null) default charset = utf8mb4;
+
 
 create table aluno(
 rm_aluno int not null primary key,
@@ -37,7 +38,7 @@ sobrenome varchar(40) not null,
 cpf char(11) not null,
 sexo enum('M','F'),
 data_cadastro date not null,
-img_aluno mediumblob not null) default charset = utf8;
+img_aluno mediumblob not null) default charset = utf8mb4;
 
 
 create table endereco_aluno(
@@ -47,14 +48,15 @@ logradouro varchar(100) not null,
 numero int not null,
 bairro varchar(50) not null,
 cidade varchar(50) not null,
-complemento mediumtext) default charset = utf8;
+complemento mediumtext) default charset = utf8mb4;
 
 
 create table contato_aluno(
 id_contato int not null auto_increment primary key,
 telefone char(10),
 celular char(11) not null,
-email varchar(100) not null) default charset = utf8;
+email varchar(100) not null) default charset = utf8mb4;
+
 
 create table funcionario(
 cpf char(11) not null primary key,
@@ -62,7 +64,8 @@ nome varchar(20) not null,
 sobrenome varchar(40) not null,
 sexo enum('M','F'),
 data_cadastro date not null,
-img_funcionario mediumblob not null) default charset = utf8;
+img_funcionario mediumblob not null) default charset = utf8mb4;
+
 
 create table endereco_funcionario(
 id_endereco_funcionario int not null auto_increment primary key,
@@ -72,13 +75,14 @@ numero int not null,
 bairro varchar(50) not null,
 cidade varchar(50) not null,
 complemento mediumtext
-) default charset = utf8;
+) default charset = utf8mb4;
+
 
 create table contato_funcionario(
 id_contato int not null auto_increment primary key,
 telefone char(10),
 celular char(11) not null,
-email varchar(100) not null) default charset = utf8;
+email varchar(100) not null) default charset = utf8mb4;
 
 
 create table curso(
@@ -87,41 +91,42 @@ nome_curso varchar(40) not null,
 modulo_serie char(1) not null,
 periodo enum('M','T','N','I') not null,
 turma char(2) not null,
-tipo varchar(4) not null) default charset = utf8;
+tipo varchar(4) not null) default charset = utf8mb4;
 
 
 create table curso_usuario(
-id_curso_usuario int primary key auto_increment not null) default charset = utf8;
+id_curso_usuario int primary key auto_increment not null) default charset = utf8mb4;
 
 
 create table genero(
 id_genero int primary key auto_increment not null,
-nome_genero varchar(40) not null) default charset = utf8;
+nome_genero varchar(40) not null) default charset = utf8mb4;
 
 create table genero_livro(
-genero_id_genero int primary key auto_increment not null) default charset = utf8;
+genero_id_genero int primary key auto_increment not null) default charset = utf8mb4;
 
 
 create table instituicao(
 id_instituicao int primary key not null,
-nome_instituicao varchar(255) not null) default charset = utf8;
+nome_instituicao varchar(255) not null) default charset = utf8mb4;
+
 
 create table instituicao_usuario(
 id_instituicao_usuario int primary key not null auto_increment,
-situacao enum('D', 'I')) default charset = utf8;
+situacao enum('D', 'I')) default charset = utf8mb4;
 
 
 create table autor(
 id_autor int primary key auto_increment not null,
 nome_autor varchar(100) not null,
-nacionalidade varchar(40) not null) default charset = utf8;
+nacionalidade varchar(40) not null) default charset = utf8mb4;
 
 create table autor_livro(
-autor_id_autor int primary key auto_increment not null) default charset = utf8;
+autor_id_autor int primary key auto_increment not null) default charset = utf8mb4;
 
 create table colaboradores(
 cod_colaborador int primary key auto_increment not null,
-nomes varchar(255) not null) default charset = utf8;
+nomes varchar(255) not null) default charset = utf8mb4;
 
 
 create table livro(
@@ -135,33 +140,33 @@ insercao date not null,
 isbn varchar(14),
 idioma varchar(30) not null,
 img_livro mediumblob not null,
-pdf_livro varchar(100))default charset = utf8;
+pdf_livro varchar(100))default charset = utf8mb4;
 
 
 create table editora(
 id_editora int not null primary key auto_increment,
 nome_editora varchar(100) not null,
-cnpj char(14))default charset = utf8;
+cnpj char(14))default charset = utf8mb4;
 
 create table editora_livro(
 editora_id_editora int primary key auto_increment not null
-)default charset = utf8;
+)default charset = utf8mb4;
 
 
 create table exemplares(
 id_exemplares int not null primary key auto_increment,
-quantidade int not null)default charset = utf8;
+quantidade int not null)default charset = utf8mb4;
 
 
 create table lista(
-id_lista int not null primary key auto_increment)default charset = utf8;
+id_lista int not null primary key auto_increment)default charset = utf8mb4;
 
 
 create table avaliacao(
 id_avaliacao int not null primary key auto_increment,
 mensagem longtext,
 avaliacao_estrelas int not null,
-data_ava date not null)default charset = utf8;
+data_ava date not null)default charset = utf8mb4;
 
 
 create table locacao(
@@ -169,7 +174,7 @@ id_locacao int not null primary key auto_increment,
 data_locacao date not null,
 data_devolucao date not null,
 notificado bool not null
-)default charset = utf8;
+)default charset = utf8mb4;
 
 
 create table usuario(
@@ -177,7 +182,7 @@ id_usuario int not null primary key auto_increment,
 senha varchar(100) not null,
 nivel_acesso enum('A','U') not null,
 status_usuario enum('B','D') not null
-)default charset = utf8;
+)default charset = utf8mb4;
 
 
 create table avisos(
@@ -186,4 +191,4 @@ titulo varchar(50) not null,
 mensagem longtext not null,
 situacao enum('V', 'N') not null,
 data_envio date not null
-)default charset = utf8;
+)default charset = utf8mb4;
