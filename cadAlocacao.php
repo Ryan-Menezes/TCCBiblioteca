@@ -57,7 +57,7 @@
 	<script src="./scripts/MaskaraJquery/jquery.mask.js"></script>
 	<script src="./scripts/carregaLivroAlocacao.js"></script>
 	<script src="./scripts/cadastroAlocacao.js"></script>
-	<script type="text/javascript" src="./scripts/recaptcha.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 	<link rel="stylesheet" type="text/css" href="./css/fontawesome-free-5.12.1-web/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/fontawesome-free-5.12.1-web/css/brands.min.css">
