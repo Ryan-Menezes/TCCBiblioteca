@@ -1,4 +1,5 @@
 <?php
+	error_reporting(0);
 
 	final class Usuario{
 		private $rm;

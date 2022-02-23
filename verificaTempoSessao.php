@@ -1,5 +1,5 @@
 <?php
-
+	error_reporting(0);
 	include_once "conexao.php";
 	include_once "Usuario.php";
 	
