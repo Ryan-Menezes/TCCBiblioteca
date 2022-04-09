@@ -2,7 +2,7 @@
 
 	include_once "dadosSistema.php";
 
-	error_reporting(E_ALL ^ E_ERROR | E_WARNING | E_PARSE);
+	error_reporting(0);
 
 	class conexao{
 		public static $server = "localhost";
